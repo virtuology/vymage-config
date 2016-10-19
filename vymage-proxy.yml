@@ -1,0 +1,6 @@
+hello: world this is from the config server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://vymage-service-registry.cfapps.io/eureka/
