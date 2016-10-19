@@ -4,3 +4,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://vymage-service-registry.cfapps.io/eureka/
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
