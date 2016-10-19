@@ -1,1 +1,1 @@
-hello: 'foo'
+server.port: 8080
